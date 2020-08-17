@@ -1,6 +1,6 @@
 ---
-layout: page
-title: About
+layout: post
+title: Hey everyone!
 ---
 
 Hey, I'm Simon, Founder and CEO of the [Loki Project](https://loki.network), and I sit on the board of the the [Loki Foundation](loki.foundation). The Loki team and I have produced several products, including:
