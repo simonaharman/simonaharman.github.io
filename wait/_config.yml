@@ -1,0 +1,20 @@
+# Setup
+title:            'Simon Harman'
+tagline:          'Cryptoeconomics'
+description:      'Founder and CEO of the <a href="https://loki.network" target="_blank">Loki project</a>. Cryptoeconomics analyist. Tweets as <a href="https://twitter.com/simonaharman" target="_blank">@SimonAHarman</a>.'
+url:              https://loki.network
+baseurl:          ''
+paginate:         5
+
+# About and contact
+author:
+  name:           'Simon Harman'
+  url:            https://twitter.com/SimonAHarman
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
+# Custom vars
+version:          3.0.0
