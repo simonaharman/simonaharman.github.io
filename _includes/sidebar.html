@@ -1,16 +1,18 @@
 <div class="sidebar">
-  <div class="container sidebar-sticky">
+  <div class="sticky">
     <div class="sidebar-about">
+	<img class="profile-pic" src="assets/circle-cropped.png" alt="Profile Picture"> 
       <h1>
         <a href="{{ "/" | relative_url }}">
           {{ site.title }}
         </a>
       </h1>
-      <p class="lead">{{ site.description }}</p>
+      <p class="lead">Founder and CEO of the <a href="https://loki.network">Loki Project</a></p>
+	  <p class="subtext"><p>I have the privalege of working on Session, Blockswap, and of course Loki itself. Through these products and my own musings and research, have I developed a keen interest in Cryptoeconomics. Follow me and find out more about my work using these helpful links:</p></p>
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="/">Latest Posts</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -27,6 +29,14 @@
       {% endfor %}
 
     </nav>
+	
+	<nav class='socials'>
+	<!-- Load an icon library -->
+		<a href="https://twitter.com/simonaharman"><i class="fab fa-twitter-square"></i> @SimonAHarman</a>
+		<a href="https://medium.com/@simonaharman"><i class="fab fa-medium"></i> Posts on Medium</a>
+		<a href="https://github.com/haafingar"><i class="fab fa-github-square"></i> Haafingar on GitHub</a>
+		<a href="mailto:simon@loki.network"><i class="fas fa-envelope-square"></i> Old School eMail</a>
+	</nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>

@@ -32,16 +32,17 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 @media (min-width: 48em) {
   html {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -58,8 +59,16 @@ html {
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+  font-size: 18px;
 }
-@media (min-width: 48em) {
+
+@media (min-width: 64em) {
+  .sticky {
+    position: absolute;
+    right:  2rem;
+    bottom: 1rem;
+    left:   2rem;
+  }
   .sidebar {
     position: fixed;
     top: 0;
@@ -67,6 +76,18 @@ html {
     bottom: 0;
     width: 30%;
     text-align: left;
+  }
+}
+/*profile picute*/
+
+.sidebar-about img {
+  max-width: 10rem;
+  align: center;
+}
+
+@media (max-height: 48em) {
+  .sidebar-about img {
+  display: none;
   }
 }
 
@@ -79,8 +100,9 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-family: "Merriweather", serif;
+  font-size: 3rem;
+  text-decoration: underline;
 }
 
 /* Sidebar nav */
@@ -93,7 +115,7 @@ html {
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+    color: #818181;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
@@ -105,13 +127,18 @@ a.sidebar-nav-item:focus {
  * contents to the bottom of the sidebar in tablets and up.
  */
 
-@media (min-width: 48em) {
-  .sidebar-sticky {
-    position: absolute;
-    right:  1rem;
-    bottom: 1rem;
-    left:   1rem;
-  }
+.socials {
+  padding-bottom: 1rem;
+}
+
+.socials a {
+  padding: 0px 0.25rem 0.25rem 0px;
+  color: #fff;
+  display: block;
+}
+
+.socials a:hover {
+  color: #818181;
 }
 
 
@@ -127,11 +154,16 @@ a.sidebar-nav-item:focus {
   padding-left: 4rem;
 }
 
-@media (min-width: 48em) {
+@media (max-width: 64em) {
   .content {
-    max-width: 40%;
-    margin-left: 30%;
-    margin-right: 2rem;
+    max-width: 80%;
+    height: auto;
+    }
+  .sidebar-about img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 }
 
@@ -141,112 +173,4 @@ a.sidebar-nav-item:focus {
     margin-left: 30%;
     margin-right: 4rem;
   }
-}
-
-
-/*
- * Reverse layout
- *
- * Flip the orientation of the page by placing the `.sidebar` on the right.
- */
-
-@media (min-width: 48em) {
-  .layout-reverse .sidebar {
-    left: auto;
-    right: 0;
-  }
-  .layout-reverse .content {
-    margin-left: 2rem;
-    margin-right: 20rem;
-  }
-}
-
-@media (min-width: 64em) {
-  .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 22rem;
-  }
-}
-
-
-
-/*
- * Themes
- *
- * As of v1.1, Hyde includes optional themes to color the sidebar and links
- * within blog posts. To use, add the class of your choosing to the `body`.
- */
-
-/* Base16 (http://chriskempson.github.io/base16/#default) */
-
-/* Red */
-.theme-base-08 .sidebar {
-  background-color: #ac4142;
-}
-.theme-base-08 .content a,
-.theme-base-08 .related-posts li a:hover {
-  color: #ac4142;
-}
-
-/* Orange */
-.theme-base-09 .sidebar {
-  background-color: #d28445;
-}
-.theme-base-09 .content a,
-.theme-base-09 .related-posts li a:hover {
-  color: #d28445;
-}
-
-/* Yellow */
-.theme-base-0a .sidebar {
-  background-color: #f4bf75;
-}
-.theme-base-0a .content a,
-.theme-base-0a .related-posts li a:hover {
-  color: #f4bf75;
-}
-
-/* Green */
-.theme-base-0b .sidebar {
-  background-color: #90a959;
-}
-.theme-base-0b .content a,
-.theme-base-0b .related-posts li a:hover {
-  color: #90a959;
-}
-
-/* Cyan */
-.theme-base-0c .sidebar {
-  background-color: #75b5aa;
-}
-.theme-base-0c .content a,
-.theme-base-0c .related-posts li a:hover {
-  color: #75b5aa;
-}
-
-/* Blue */
-.theme-base-0d .sidebar {
-  background-color: #6a9fb5;
-}
-.theme-base-0d .content a,
-.theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5;
-}
-
-/* Magenta */
-.theme-base-0e .sidebar {
-  background-color: #aa759f;
-}
-.theme-base-0e .content a,
-.theme-base-0e .related-posts li a:hover {
-  color: #aa759f;
-}
-
-/* Brown */
-.theme-base-0f .sidebar {
-  background-color: #8f5536;
-}
-.theme-base-0f .content a,
-.theme-base-0f .related-posts li a:hover {
-  color: #8f5536;
 }
