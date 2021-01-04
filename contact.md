@@ -5,7 +5,7 @@ title: Contact Me & Session ID
 
 ## Message me on Session! My address is: 
 
-### 056ad2b82b85f1585827dda8d2c018e557edbdde722041641bd498dee998700e75
+### 05e6d77c92c47dc97877a153f1d459b3c3411088b80600ceea4702b462ede88b12
 
 Find the app for your device at [https://getsession.org](https://getsession.org)
 
