@@ -18,6 +18,6 @@ Some of the larger papers I've written contributed to are:
 * 2020 - [LRC-3](https://github.com/loki-project/loki-improvement-proposals/files/3843874/LokiEmissionsSchemeReview2019.pdf) - the second analysis of the Loki network's economic scheme in light of Proof of Stake 
 * 2019 - [Session Whitepaper](https://getsession.org/whitepaper) - Our secure messaging app's primary design document 
 * 2018 - [Loki Cryptoeconomics](https://loki.network/wp-content/uploads/2019/05/Loki_Cryptoeconomics-2-1.pdf) - a preliminary design for Service Nodes 
-* 2018 - [Loki Whitepaper](https//loki.network/whitepaper) - The founding document for the Loki Project
+* 2018 - [Loki Whitepaper](https://loki.network/whitepaper) - The founding document for the Loki Project
 
 Thanks for reading! Contact me at simon@loki.network
