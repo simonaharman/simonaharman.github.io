@@ -1,3 +1,9 @@
+---
+layout: post
+title: Cryptoeconomics Series P1: FLIP’s Token Model & Supply: To Cap or Not to Cap?
+---
+![FLIP’s Token Model & Supply: To Cap or Not to Cap?](/assets/defibull.png)
+
 Ah, dear reader. Whether you meant to or not, you have stumbled upon the first part of a series on Cryptoeconomics, mostly related to Chainflip, but be warned: this will get deep. Simon H, [10. If you haven’t got the time to chew through some in-depth analysis, steer clear of this series and perhaps check out the info on Chainflip’s economic parameters in the  [FAQ](https://chainflip.io/learn).
 
 Every part in this series will be paired with its  [own topic](https://forum.chainflip.io/t/cryptoeconomics-series-part-1-to-cap-or-not-to-cap/12)  in the brand new  [Chainflip Governance Forum](http://forum.chainflip.io/). If after reading this you have comments, questions, or things to add, head on over and join the discussion.
