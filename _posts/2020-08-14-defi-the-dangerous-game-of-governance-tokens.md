@@ -4,6 +4,8 @@ title: DeFi - The Dangerous Game of Governance Tokens
 ---
 ![DeFi - The Dangerous Game of Governance Tokens](/assets/defibull.png)
 
+#DeFi - The Dangerous Game of Governance Tokens
+
 The last few months have generated an explosion of discussion in the crypto world about governance tokens and so-called ‘yield farming’. There’s lots of chatter around incentive structures for the variety of actors in the field. In particular, the DeFi community has settled on a rather unusual consensus about the balance between arbitrageurs, liquidity and infrastructure providers, and the viability of governance tokens going into the future.
 
 I’m going to explore the long-term viability of governance tokens and how modern monetary theory is precipitating into the ideas we’re now seeing in DeFi. This is super interesting, and runs contrary to the popular beliefs of most crypto holders.
